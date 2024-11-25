@@ -1,0 +1,35 @@
+{
+  "name": "vmcollaboration-webapp",
+  "version": "1.0.0",
+  "description": "VM Collaboration is been inspired by CollabVM, is a webapp in NodeJS with Express, Socket.IO and more, is having many functionnality and cool interface!",
+  "main": "launcher.js",
+  "scripts": {
+    "test": "node launcher.js",
+    "start": "node launcher.js && pause"
+  },
+  "keywords": [
+    "collaboration",
+    "opensource",
+    "vm",
+    "node",
+    "nodejs",
+    "socketio",
+    "express"
+  ],
+  "author": "Bef@ci03",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "canvas": "^2.11.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "socket.io": "^4.8.1"
+  }
+}
